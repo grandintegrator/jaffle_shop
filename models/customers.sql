@@ -66,4 +66,7 @@ final as (
 
 )
 
-select * from final
+select *,
+ROUND(customer_lifetime_value * 0.56, 2) as customer_lifetime_value_gbp
+
+from final
