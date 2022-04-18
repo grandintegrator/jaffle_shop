@@ -73,4 +73,7 @@ models:
 - columns: []
   description: ''
   name: customers_agg
+- columns: []
+  description: ''
+  name: derived
 version: 2

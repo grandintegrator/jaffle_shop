@@ -56,6 +56,7 @@ final as (
         customer_orders.number_of_orders,
         customer_payments.total_amount as customer_lifetime_value,
         customer_payments.total_amount * 0.57 as customer_lifetime_value_gbp,
+        customer_payments.total_amount * 0.74 as customer_lifetime_value_usd,
 
     from customers
 
